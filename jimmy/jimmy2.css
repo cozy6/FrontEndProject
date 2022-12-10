@@ -1,0 +1,541 @@
+body {
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: montserrat;
+    font-weight: lighter;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .con {
+      
+    }
+  }
+
+/***** Contact *****/
+.con{
+    position: absolute;
+    top: 2950px;
+    left: 660px;
+    font-weight: 300;
+}
+
+.conleft{
+    width: 420px;
+    position: absolute;
+    top: 2980px;
+    left: 160px;
+}
+
+.conright{
+    width: 420px;
+    position: absolute;
+    top: 2980px;
+    left: 900px;
+}
+
+.phone{
+  color: #fff;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  left: 650px;
+  top: 3050px;
+}
+
+.email{
+    color: #fff;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    left: 632px;
+    top: 3100px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    margin-top: 325px;
+    gap: 30px;
+    margin-left: -10px;
+}
+
+.socialhr{
+    position: absolute;
+    top: 3250px;
+    width: 40%;
+    left: 450px;
+}
+
+.team ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.team ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.team ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #607EAA;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.team {
+    width: 85%;
+    margin: 25px;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 90px;
+    margin-left: 395px;
+
+}
+
+.jimmy:hover {
+   font-weight: 900;
+
+}
+.juliet:hover {
+    font-weight: 900;
+ 
+ }
+.kana:hover {
+    font-weight: 900;
+ 
+ }
+.mateo:hover {
+    font-weight: 900;
+ 
+ }
+
+.juliet{
+    border-left: 1px solid white;
+    padding-left: 50px;
+}
+
+.kana{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.copy{
+    color: #fff;
+    position: absolute;
+    left: 660px;
+}
+
+/***** edu *****/
+.gbc{
+    display: flex;
+    justify-content: start;
+    margin-left:78px;
+    margin-top: 70px;
+}
+
+.gbch{
+    position: absolute;
+    left: 495px;
+    top: 2090px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.gbcp{
+    position: absolute;
+    left: 495px;
+    top: 2150px;
+    color: #fff;
+}
+
+.hum{
+    display: flex;
+    justify-content: end;
+    margin-left: 1020px;
+    margin-top: 95px;
+}
+
+.humh{
+    position: absolute;
+    left: 801px;
+    top: 2500px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.hump{
+    position: absolute;
+    left: 785px;
+    top: 2570px;
+    color: #fff;
+    text-align: right;
+}
+
+
+
+/***** Bottom Image ******/
+.bot{
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+    margin-left: 155px;
+}
+
+/***** Left Side *****/
+.Tokyo{
+    display: flex;
+    justify-content: start;
+    color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 153px;
+    margin-top: -525px;
+}
+
+.Tokyop{
+    display: flex;
+    justify-content: start;
+    color: #fff;
+    margin-left: 153px;
+    margin-top: -10px;
+}
+
+.alley {
+    display: flex;
+    justify-content: start;
+    margin-left: 77px;
+    margin-top: 22px;
+}
+
+/***** Middle Image *****/
+.top{
+    display: flex;
+    justify-content: center;
+    margin-top: -780px;
+    margin-left: 495px;
+
+}
+
+.Asakusa {
+    display: flex;
+    justify-content: center;
+    margin-left: -320px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.Asakusap{
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 490px;
+    margin-top: -15px;
+}
+
+/***** Right image *****/
+.right-img, .moon {
+    display: flex;
+    justify-content: end;
+    margin-right: -119px;
+    margin-top: 120px;
+}
+
+.rotatedtext{
+    rotate: -90deg;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    margin-top: -231px;
+    font-size: 30px;
+    font-weight: 500; 
+}
+
+/***** Education *****/
+.edu{
+    position: absolute;
+    top: 2000px;
+    left: 645px;
+    font-weight: 300
+
+}
+
+/***** About *****/
+.apr {
+    display: grid;
+    grid-template-columns: 10% 15% 15%;
+    text-align: center;
+    position: relative;
+    left: 800px;
+    top: 180px;
+    font-family: montserrat;
+    font-size: 22px;
+    color: #fff;
+}
+
+.about1 {
+    display: flex;
+    justify-content: end;
+    margin-top: 460px;
+    margin-left:-5px;
+    /* position: absolute;
+    top: 730px;
+    left: 840px; */
+}
+
+.aboutlore {
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    margin-right: 160px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+
+/**** HR ****/ 
+
+.abouthr {  
+    display: flex;
+    justify-content: end;
+    margin-right: 200px;
+    margin-top: 495px;
+    width: 300px;
+    max-width: 300px;
+    /* position: absolute;
+    left: 980px;
+    top: 762px;
+    width: 300px; */
+}
+
+.exploreleft {
+    width: 420px;
+    position: absolute;
+    top: 1030px;
+    left: 160px;
+
+}
+
+.exploreright {
+    width: 420px;
+    position: absolute;
+    top: 1030px;
+    left: 870px;
+}
+
+.eduleft{
+    width: 420px;
+    position: absolute;
+    top: 2035px;
+    left: 160px;
+}
+
+.eduright{
+    width: 420px;
+    position: absolute;
+    top: 2035px;
+    left: 900px;
+}
+
+.name, h1 {
+    position: absolute;
+    left: 845px;
+    top: 220px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.pronoun {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+
+}
+
+.explore {
+    position: absolute;
+    top: 1000px;
+    left: 652px;
+    font-weight: 300;
+}
+
+/***** Top Images *****/
+.roundImgs {
+    display: grid;
+    grid-template-columns: 35% 35% 40%;
+    position: relative;
+    left: 320px;
+    top: -220px;
+}
+
+.mainImages {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+.leftImg {
+    display: flex;
+    justify-content: start;
+    margin-left: -150px;
+    margin-top: -424px;
+}
+
+.profile {
+    display: flex;
+    justify-content: start;
+    margin-left: -15px;
+}
+
+
+
+/***** Nav Buttons ******/
+.nav {
+    width: 85%;
+    margin: 25px;
+    padding: 0px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #607EAA;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.nav ul li:hover::after {
+    width: 100%;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .contact, ul, li, .socials {
+      width: 100%;
+      display: flex;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .profile {
+      width: 50%;
+      display: flex;
+      margin-right: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .leftImg {
+      width: 30%;
+      display: flex;
+      margin-right: 100px;
+      margin-top: -300px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .aboutlore, .abouthr{
+      width: 30%;
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .right-img{
+      width: 30%;
+      display: flex;
+      margin-left: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .Tokyo, .Asakusa, .moon, .rotatedtext,.Tokyop, .gbch, .gbcp,.Asakusap, .Tokyop,.socials, hr{
+      width: 30%;
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .alley{
+      width: 75%;
+      display: flex;
+      margin-left: 45px;
+      margin-top: 450px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .bottom{
+      width: 100px;
+      display: flex;
+      margin-left: -150px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .gbc{
+      width: 75%;
+      display: flex;
+      margin-left: 50px;
+      margin-top: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .logo{
+      margin-left: 5px;
+}
+  }
